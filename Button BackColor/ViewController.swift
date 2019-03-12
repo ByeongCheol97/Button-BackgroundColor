@@ -14,7 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
+    @IBAction func butColor(_ sender: Any) {
+        self.view.backgroundColor = UIColor.red
+    }
+    @IBAction func butColor1(_ sender: Any) {
+        self.view.backgroundColor = UIColor.yellow
+    }
+    @IBAction func butColor2(_ sender: Any) {
+        self.view.backgroundColor = UIColor.green
+    }
+    @IBAction func butColor3(_ sender: Any) {
+        self.view.backgroundColor = UIColor.white
+    }
 }
 
